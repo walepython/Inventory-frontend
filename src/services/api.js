@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // For Vite, use import.meta.env instead of process.env
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://inventrory-management-system-2.onrender.com'//'http://localhost:8080';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
